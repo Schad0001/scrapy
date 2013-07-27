@@ -1,0 +1,22 @@
+{
+  "name": "Scrapy",
+  "version": "0.0.1",
+  "author": "Edgars Vasiljevs <edgars@htmlslice.lv>",
+  "description": "Simple Web scrapper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adomak/scrapy.git"
+  },
+  "dependencies": {
+  	"async": "0.x.x",
+  	"nom": "0.x.x"
+  },
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-concat": "0.x.x",
+    "grunt-contrib-clean": "0.x.x",
+    "grunt-contrib-copy": "0.x.x",
+    "grunt-contrib-jshint": "0.x.x",
+    "grunt-contrib-nodeunit": "0.x.x"
+  }
+}
