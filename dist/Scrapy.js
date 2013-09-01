@@ -3,7 +3,7 @@
  * Simple Web scrapper
  *
  * Copyright (c) 2013 Edgars Vasiljevs <edgars@htmlslice.lv>
- * Licensed 
+ * Licensed MIT
  */
 /* global console */
 
