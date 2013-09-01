@@ -6,6 +6,7 @@ and [async](https://github.com/caolan/async) for asynchronous page requests.
 
 
 ## Initialize Scrapy 
+Create a new instance of Scrapy
 	new Scrapy(options, function(crawler) {
 		// your code goes here
 	});
