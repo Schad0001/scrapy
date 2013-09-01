@@ -7,9 +7,11 @@ and [async](https://github.com/caolan/async) for asynchronous page requests.
 
 ## Initialize Scrapy 
 Create a new instance of Scrapy
+
 	new Scrapy(options, function(crawler) {
 		// your code goes here
 	});
+	
 #### Available options
 Options is an object. Use `null` or `{}` for no options
 - `sleep` (default: 1000) - time in ms between requests
