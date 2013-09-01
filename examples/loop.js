@@ -6,14 +6,12 @@ var options = {
 	sleep: 3000, // 3 second intervals between requests
 };
 
-new Scrapy(options, function(crawler) {
+var scrapy = new Scrapy(options);
 
-	crawler.loop('http://net.tutsplus.com/page/{%i}/', { end: 5 }, function($) {
+scrapy.loop('http://net.tutsplus.com/page/{%i}/', { end: 3 }, function($) {
 
-		$('.post_title a').each(function() {
-			console.log( $(this).text().trim() );
-		});
-
+	$('.post_title a').each(function() {
+		console.log( $(this).text().trim() );
 	});
 
 });

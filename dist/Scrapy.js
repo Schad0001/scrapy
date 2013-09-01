@@ -1,5 +1,5 @@
 /**
- * Scrapy v0.0.1 - 2013-08-02
+ * Scrapy v0.0.1 - 2013-09-02
  * Simple Web scrapper
  *
  * Copyright (c) 2013 Edgars Vasiljevs <edgars@htmlslice.lv>
@@ -141,10 +141,8 @@ var Scrapy = function(options, callback) {
 
 	};
 
-
-
-	// start user script
-	callback.call(this, this);
+	// return this instance
+	return this;
 
 };
 

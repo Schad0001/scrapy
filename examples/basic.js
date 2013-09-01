@@ -2,21 +2,12 @@
 
 var Scrapy = require("../dist/Scrapy");
 
-var options = {
-	debug: true
-};
+var scrapy = new Scrapy({debug: true});
 
-new Scrapy(options, function(crawler) {
-
-	this.get('http://www.google.com/', function($) {
-		console.log( 'Page title:', $('title').text() );
-	});
-
-	this.get('http://www.apple.com/', function($) {
-		console.log( 'Page title:', $('title').text() );
-	});	
-
+scrapy.get('http://www.google.com/', function($) {
+	console.log( 'Page title:', $('title').text() );
 });
 
-
-
+scrapy.get('http://www.apple.com/', function($) {
+	console.log( 'Page title:', $('title').text() );
+});	

@@ -135,10 +135,8 @@ var Scrapy = function(options, callback) {
 
 	};
 
-
-
-	// start user script
-	callback.call(this, this);
+	// return this instance
+	return this;
 
 };
 
