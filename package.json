@@ -12,6 +12,7 @@
   	"nom": "0.x.x"
   },
   "devDependencies": {
+  	"connect": "2.8.x",
     "grunt": "0.4.x",
     "grunt-contrib-concat": "0.x.x",
     "grunt-contrib-clean": "0.x.x",

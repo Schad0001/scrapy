@@ -1,5 +1,5 @@
 /**
- * Scrapy v0.0.1 - 2013-07-27
+ * Scrapy v0.0.1 - 2013-08-02
  * Simple Web scrapper
  *
  * Copyright (c) 2013 Edgars Vasiljevs <edgars@htmlslice.lv>
