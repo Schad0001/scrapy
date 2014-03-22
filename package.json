@@ -10,7 +10,8 @@
   },
   "dependencies": {
   	"async": "0.x.x",
-  	"nom": "0.x.x"
+  	"nom": "0.x.x",
+  	"sugar": "0.x.x"
   },
   "devDependencies": {
   	"connect": "2.8.x",
